@@ -123,7 +123,7 @@ class _MapPreview extends StatelessWidget {
     return Container(
       height: 200,
       decoration: BoxDecoration(
-        color: const Color(0xFFE8F4FD),
+        color: AppColors.lightGray,
         borderRadius: BorderRadius.circular(16),
         border: Border.all(color: AppColors.primary.withValues(alpha: 0.2)),
       ),

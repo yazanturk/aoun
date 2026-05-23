@@ -143,7 +143,7 @@ class _SideNav extends StatelessWidget {
             height: 56,
             decoration: BoxDecoration(
               gradient: const LinearGradient(
-                colors: [AppColors.primary, Color(0xFF1A9EE0)],
+                colors: [AppColors.primary, AppColors.primaryDark],
                 begin: Alignment.topLeft,
                 end: Alignment.bottomRight,
               ),
@@ -230,7 +230,7 @@ class _HomeHeader extends StatelessWidget {
       padding: const EdgeInsets.fromLTRB(20, 20, 20, 28),
       decoration: const BoxDecoration(
         gradient: LinearGradient(
-          colors: [AppColors.primary, Color(0xFF1A9EE0)],
+          colors: [AppColors.primary, AppColors.primaryDark],
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
         ),

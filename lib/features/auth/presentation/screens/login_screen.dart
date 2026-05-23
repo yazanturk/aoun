@@ -170,7 +170,7 @@ class _Header extends StatelessWidget {
       padding: const EdgeInsets.fromLTRB(24, 48, 24, 40),
       decoration: const BoxDecoration(
         gradient: LinearGradient(
-          colors: [AppColors.primary, Color(0xFF1A9EE0)],
+          colors: [AppColors.primary, AppColors.primaryDark],
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
         ),
